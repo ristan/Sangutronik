@@ -1,0 +1,156 @@
+<!--
+Sistema		:	Sistema Sangutroniko.
+Archivo		:	opc2.php
+Proposito	:	Opcion Nuestros Productos.
+Autores		:	Cristian Reyes Rodriguez.
+					Felipe Morales Palacios.
+Viva Chile !
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+	<link href="../css/estilo.css"rel="stylesheet" type="text/css" />
+ 	<link rel="SHORTCUT ICON" href="../img/favicon.ico" />
+	<title>Sistema de Gesti&oacute;n y Venta de Sandwich - Sangutroniko.</title>
+	<meta name="author" content="Felipe Morales Palacios" />
+	<meta name="description" content="Sistema de Gestión y Venta de Sandwich - Sangutroniko." />
+</head>
+<?php
+	include_once("cabecera.php");
+	include_once("botones.php");
+	include_once("opciones.php");
+?>	
+<body>
+	<div align="center">
+		<table bgcolor="#FAFAFA" class="bordetabla">
+			<tr>
+				<td width="1024">
+					<div align="center">
+						<h1>
+							Galer&iacute;a.
+						</h1>
+						<table width="800">
+							<tr>
+								<td>
+									<a href="../img/foto1.jpg" title="Ave Solitaria.">
+							  			<img src="../img/foto1.jpg" width="200" height="200" alt="" />
+									</a>
+								</td>
+								<td>
+									<a href="../img/foto2.jpg" title="Gran Ave.">
+							  			<img src="../img/foto2.jpg" width="200" height="200" alt="" />
+									</a>																		
+								</td>
+								<td>
+									<a href="../img/foto3.jpg" title="Jarpa Simple.">
+							  			<img src="../img/foto3.jpg" width="200" height="200" alt="" />
+									</a>																		
+								</td>
+								<td>
+									<a href="../img/foto4.jpg" title="Jarpa Crujiente.">
+							  			<img src="../img/foto4.jpg" width="200" height="200" alt="" />
+									</a>																		
+								</td>
+							</tr>
+							<tr align="center">
+								<td><h5>Ave Solitaria.<br />$ 1.200.-</h5><br /></td>
+								<td><h5>Gran Ave.<br />$ 2.000.-</h5><br /></td>
+								<td><h5>Jarpa Simple.<br />$ 500.-</h5><br /></td>
+								<td><h5>Jarpa Crujiente.<br />$ 600.-</h5><br /></td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../img/foto5.jpg" title="Jarpa Marraqueta.">
+						    			<img src="../img/foto5.jpg" width="200" height="200" alt="" />
+									</a>																											
+								</td>
+								<td>
+									<a href="../img/foto6.jpg" title="Completo Jumbo.">
+						    			<img src="../img/foto6.jpg" width="200" height="200" alt="" />
+									</a>																											
+								</td>
+								<td>
+									<a href="../img/foto7.jpg" title="Completo Chileno.">
+						    			<img src="../img/foto7.jpg" width="200" height="200" alt="" />
+									</a>																											
+								</td>
+								<td>
+									<a href="../img/foto8.jpg" title="Gran Italiano.">
+						    			<img src="../img/foto8.jpg" width="200" height="200" alt="" />
+									</a>																											
+								</td>
+							</tr>
+							<tr align="center">
+								<td><h5>Jarpa Marraqueta.<br />$ 800.-</h5><br /></td>
+								<td><h5>Completo Jumbo.<br />$ 1.000.-</h5><br /></td>
+								<td><h5>Completo Chileno.<br />$ 1.000.-</h5><br /></td>
+								<td><h5>Gran Italiano.<br />$ 1.000.-</h5><br /></td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../img/foto9.jpg" title="Churrasco Premium.">
+						    			<img src="../img/foto9.jpg" width="200" height="200" alt="" />
+									</a>																											
+								</td>
+								<td>
+									<a href="../img/foto10.jpg" title="Churrasco 2 Pisos.">
+						    			<img src="../img/foto10.jpg" width="200" height="200" alt="" />
+									</a>																																				
+								</td>
+								<td>
+									<a href="../img/foto11.jpg" title="Chacarero Tradicion.">
+						    			<img src="../img/foto11.jpg" width="200" height="200" alt="" />
+									</a>																																				
+								</td>
+								<td>
+									<a href="../img/foto12.jpg" title="Chacarero Marraqueta.">
+						    			<img src="../img/foto12.jpg" width="200" height="200" alt="" />
+									</a>																																				
+								</td>
+							</tr>
+							<tr align="center">
+								<td><h5>Churrasco Premium.<br />$ 1.500.-</h5><br /></td>
+								<td><h5>Churrasco 2 Pisos.<br />$ 2.000.-</h5><br /></td>
+								<td><h5>Chacarero Tradicion.<br />$ 1.200.-</h5><br /></td>
+								<td><h5>Chacarero Marraqueta.<br />$ 1.800.-</h5><br /></td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../img/foto13.jpg" title="Chacarero Gold.">
+						    			<img src="../img/foto13.jpg" width="200" height="200" alt="" />
+									</a>																																													
+								</td>
+								<td>
+									<a href="../img/foto14.jpg" title="Chacarero Crujiente.">
+						    			<img src="../img/foto14.jpg" width="200" height="200" alt="" />
+									</a>																																													
+								</td>
+								<td>
+									<a href="../img/foto15.jpg" title="Chacarero Titanium.">
+						    			<img src="../img/foto15.jpg" width="200" height="200" alt="" />
+									</a>																																			
+								</td>
+								<td>
+									<a href="../img/foto16.jpg" title="Chacarero Maximus.">
+						    			<img src="../img/foto16.jpg" width="200" height="200" alt="" />
+									</a>																																													
+								</td>
+							</tr>
+							<tr align="center">
+								<td><h5>Chacarero Gold.<br />$ 2.500.-</h5><br /></td>
+								<td><h5>Chacarero Crujiente.<br />$ 2.500.-</h5><br /></td>
+								<td><h5>Chacarero Titanium.<br />$ 2.500.-</h5><br /></td>
+								<td><h5>Chacarero Maximus.<br />$ 2.800.-</h5><br /></td>
+							</tr>
+						</table>
+					</div>						
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+<?php
+	include_once("pie.php")
+?>
+</html>

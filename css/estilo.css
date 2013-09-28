@@ -1,0 +1,72 @@
+/* Sistema	:	Sistema Sangutroniko. 						*/
+/* Archivo	:	estilo.css para index.php y otros 		*/
+/* Autor		:	Cristian Reyes Rodriguez					*/
+/*					Felipe Morales Palacios 					*/
+/* Viva Chile !!!													*/
+
+body{															/* Cuerpo de las paginas */
+	background-image		:	url(../img/tapiz.png);
+	font-family				:	Calibri;
+	font-size				:	14px;
+}
+
+h1{															/* Titulo Primero */ 
+	font-family				:	Calibri;
+	font-size				:	20px;
+	color						:	#0040FF;
+	letter-spacing			:	1px;
+}
+
+h2{															/* Titulo Segundo */
+	font-family				:	Calibri;
+	font-size				:	15px;
+	color						:	#0040FF;
+	letter-spacing			:	1px;	
+}
+
+h3{															/* Titulo Tercero */
+	font-family				:	Calibri;
+	font-size				:	12px;
+	color						:	#0040FF;
+	letter-spacing			:	1px;	
+}
+
+h4{															/* Titulo Cuarto */
+	font-family				:	Calibri;
+	font-size				:	10px;
+	color						:	#000000;
+}
+
+.bordetabla{												/* Clase para Bordes de Tablas, Titulo, Cabecera y Pie */
+	border					:	thin solid #01DF01;	
+	-moz-border-radius	:	20px;
+	border-radius			:	20px;
+}
+
+.botonmenu{													/* Clase Botones de Menu */
+	background-color		:	#FAFAFA;
+	color						:	#0040FF;
+}
+
+.botonmenu:hover{											/* Clase Formato del Boton Menu Inverso */
+	background-color		:	#0040FF;
+	color						:	#FAFAFA;
+}
+
+.botoncompra{												/* Clase Botones de Compra */
+	background-color		:	#FFFF00;
+	color						:	#FF0000;
+	font-size				:	50px;
+	border					:	thin solid #FF0000;	
+	-moz-border-radius	:	20px;
+	border-radius			:	20px;	
+}
+
+.botoncompra:hover{										/* Clase Formato del Boton Compra Inverso */
+	background-color		:	#FF0000;
+	color						:	#FFFF00;
+	font-size				:	50px;
+	border					:	thin solid #FF0000;	
+	-moz-border-radius	:	20px;
+	border-radius			:	20px;	
+}
